@@ -161,15 +161,15 @@ class _DaviState<DATA> extends State<Davi<DATA>> {
     }
     if (widget.model != oldWidget.model) {
       _buildListenable();
-      if (_scrollControllers.vertical.hasClients) {
-        _scrollControllers.vertical.jumpTo(0);
-      }
-      if (_scrollControllers.leftPinnedHorizontal.hasClients) {
-        _scrollControllers.leftPinnedHorizontal.jumpTo(0);
-      }
-      if (_scrollControllers.unpinnedHorizontal.hasClients) {
-        _scrollControllers.unpinnedHorizontal.jumpTo(0);
-      }
+      // if (_scrollControllers.vertical.hasClients) {
+      //   _scrollControllers.vertical.jumpTo(0);
+      // }
+      // if (_scrollControllers.leftPinnedHorizontal.hasClients) {
+      //   _scrollControllers.leftPinnedHorizontal.jumpTo(0);
+      // }
+      // if (_scrollControllers.unpinnedHorizontal.hasClients) {
+      //   _scrollControllers.unpinnedHorizontal.jumpTo(0);
+      // }
     }
   }
 
